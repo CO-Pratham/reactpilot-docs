@@ -9,12 +9,6 @@ We are excited to announce the launch of **ReactPilot**, your new AI-powered cop
 
 ReactPilot helps you analyze, optimize, and fix your React applications with the power of AST analysis and Generative AI.
 
-## Check out our Reddit Post
-
-We've shared more details about our journey and the features of ReactPilot on Reddit.
-
-[**Read the full story on Reddit**](YOUR_REDDIT_LINK_HERE)
-
 ## Key Features
 
 - **Deep Analysis**: Find bugs that linters miss.
