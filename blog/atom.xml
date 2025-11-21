@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CO-Pratham.github.io/reactpilot-docs/blog</id>
+    <title>ReactPilot Blog</title>
+    <updated>2025-11-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://CO-Pratham.github.io/reactpilot-docs/blog"/>
+    <subtitle>ReactPilot Blog</subtitle>
+    <icon>https://CO-Pratham.github.io/reactpilot-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Introducing ReactPilot]]></title>
+        <id>https://CO-Pratham.github.io/reactpilot-docs/blog/reactpilot-launch</id>
+        <link href="https://CO-Pratham.github.io/reactpilot-docs/blog/reactpilot-launch"/>
+        <updated>2025-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce the launch of ReactPilot, your new AI-powered copilot for React codebases!]]></summary>
+        <content type="html"><![CDATA[<p>We are excited to announce the launch of <strong>ReactPilot</strong>, your new AI-powered copilot for React codebases!</p>
+<p>ReactPilot helps you analyze, optimize, and fix your React applications with the power of AST analysis and Generative AI.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-features">Key Features<a href="https://co-pratham.github.io/reactpilot-docs/blog/reactpilot-launch#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Deep Analysis</strong>: Find bugs that linters miss.</li>
+<li class=""><strong>Auto-Fix</strong>: Let AI fix your code for you.</li>
+<li class=""><strong>Performance Score</strong>: Gamify your optimization process.</li>
+</ul>
+<p>Give it a try today!</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npx @reactpilot/cli analyze .</span><br></span></code></pre></div></div>]]></content>
+        <author>
+            <name>Pratham Gupta</name>
+            <uri>https://github.com/CO-Pratham</uri>
+        </author>
+        <category label="launch" term="launch"/>
+        <category label="react" term="react"/>
+        <category label="cli" term="cli"/>
+        <category label="tools" term="tools"/>
+    </entry>
+</feed>

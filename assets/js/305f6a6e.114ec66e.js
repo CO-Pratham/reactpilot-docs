@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkreactpilot_docs=globalThis.webpackChunkreactpilot_docs||[]).push([[2143],{9362:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/reactpilot-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

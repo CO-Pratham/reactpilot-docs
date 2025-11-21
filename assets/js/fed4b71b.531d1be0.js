@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkreactpilot_docs=globalThis.webpackChunkreactpilot_docs||[]).push([[1392],{7565:t=>{t.exports=JSON.parse('{"authors":[{"name":"Pratham Gupta","title":"Creator of ReactPilot","url":"https://github.com/CO-Pratham","imageURL":"https://github.com/CO-Pratham.png","key":"pratham","page":null,"count":1}]}')}}]);

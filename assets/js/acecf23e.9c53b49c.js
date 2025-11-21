@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkreactpilot_docs=globalThis.webpackChunkreactpilot_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/reactpilot-docs/blog","blogTitle":"Blog","authorsListPath":"/reactpilot-docs/blog/authors"}')}}]);

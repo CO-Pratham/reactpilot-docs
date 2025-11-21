@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkreactpilot_docs=globalThis.webpackChunkreactpilot_docs||[]).push([[7472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introducing ReactPilot","permalink":"/reactpilot-docs/blog/reactpilot-launch","unlisted":false,"date":"2025-11-21T00:00:00.000Z"}]}')}}]);
