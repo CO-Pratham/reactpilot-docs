@@ -7,10 +7,18 @@ const sidebars: SidebarsConfig = {
     'getting-started',
     {
       type: 'category',
-      label: 'Commands',
+      label: 'Core Commands',
       items: [
+        'commands/features',
         'commands/analyze',
         'commands/fix',
+        'commands/auto-fix',
+        'commands/ask',
+        'commands/review',
+        'commands/graph',
+        'commands/migrate',
+        'commands/plugin',
+        'commands/dashboard',
         'commands/optimize',
         'commands/generate',
         'commands/refactor',
@@ -18,19 +26,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Rules',
+      label: 'Guides & Ecosystem',
       items: [
-        'rules/unused-import',
-        'rules/inline-function-jsx',
-        'rules/invalid-hook-usage',
-        'rules/large-component',
-        'rules/deep-jsx-nesting',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
+        'guides/pro-waitlist',
         'guides/writing-rules',
         'guides/creating-plugins',
         'guides/integrating-with-ci',
@@ -39,7 +37,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'API',
+      label: 'API Reference',
       items: [
         'api/config',
         'api/json-output',

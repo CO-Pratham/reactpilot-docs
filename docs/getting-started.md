@@ -4,66 +4,57 @@ sidebar_position: 3
 
 # Getting Started
 
-This guide will help you analyze your first project with ReactPilot.
+Get up and running with ReactPilot in under 2 minutes.
 
-## 1. Navigate to your project
+## 1. Run Interactive Feature Setup
 
-Open your terminal and navigate to the root of your React application.
-
-```bash
-cd my-react-app
-```
-
-## 2. Run Analysis
-
-Run the `analyze` command to scan your project for issues and get a performance score.
+Initialize ReactPilot in your project:
 
 ```bash
-reactpilot analyze .
+reactpilot features
 ```
 
-You will see output similar to this:
+Select **`🌟 ALL FEATURES`** to activate the entire suite or pick individual modules.
 
-```text
-Analyzing project...
-✔ Analysis complete
+---
 
-Issues found:
-- src/App.tsx: Unused import 'useEffect' (line 4)
-- src/components/Header.tsx: Inline function in JSX prop (line 12)
+## 2. Scan Your Project (`reactpilot analyze`)
 
---------------------------------------------------
-ReactPilot Performance Score: 85/100
---------------------------------------------------
-Project Summary:
-Files: 24
-Components: 12
-Hooks Used: 45
-Potential Bugs: 2
-```
-
-## 3. Fix Issues
-
-To automatically fix the detected issues, use the `auto-fix` command:
+Run static AST code analysis against your project root or specific component files:
 
 ```bash
-reactpilot auto-fix .
+# Scan current directory
+reactpilot analyze
+
+# Scan a specific component directory
+reactpilot analyze ./src/components
 ```
 
-This will attempt to resolve issues like unused imports and inline functions automatically.
+ReactPilot will output a formatted issue table highlighting severity, rule name, file location, line number, and recommended refactoring steps.
 
-## 4. Configure AI (Optional)
+---
 
-For more complex fixes, ReactPilot uses an LLM. Create a `.env` file in your project root:
+## 3. Launch Local Developer Center (`reactpilot dashboard`)
 
-```env
-REACTPILOT_API_KEY=your_openai_api_key
+Launch the visual web dashboard served locally at `http://localhost:3000`:
+
+```bash
+reactpilot dashboard
 ```
 
-Or for local Ollama:
+The Developer Center provides:
+- Live Project Health Scores & Code Quality Metrics.
+- Visual Architecture Component Graphs.
+- RAG Codebase AI Chat History.
+- React 19 & Next.js 15 Migration Wizards.
+- ReactPilot Pro Early Access Waitlist.
 
-```env
-REACTPILOT_API_BASE_URL=http://localhost:11434/v1
-REACTPILOT_MODEL=llama3
-REACTPILOT_API_KEY=ollama
+---
+
+## 4. Ask AI About Your Codebase (`reactpilot ask`)
+
+Query your repository using natural language:
+
+```bash
+reactpilot ask "How are authentication states handled in this project?"
 ```

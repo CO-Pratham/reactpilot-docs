@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+launch:
+  label: Launch
+  permalink: /launch
+  description: Product release announcements and major milestones.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+react:
+  label: React
+  permalink: /react
+  description: Articles about React component patterns, hooks, and best practices.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+cli:
+  label: CLI
+  permalink: /cli
+  description: Command-line tool tutorials and CLI feature highlights.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+tools:
+  label: Developer Tools
+  permalink: /tools
+  description: Tools and workflow optimizations for frontend engineering teams.
+
+migration:
+  label: Migration
+  permalink: /migration
+  description: Automated guides and updates for React 19 and Next.js 15 upgrades.
+
+ai:
+  label: AI & LLMs
+  permalink: /ai
+  description: AI-assisted code refactoring, AST transformations, and local LLMs.
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: AST optimization, bundle size reductions, and re-render fixes.
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: Visual dependency graphs and component hierarchy analysis.
+
+features:
+  label: Features
+  permalink: /features
+  description: Updates on ReactPilot's selective feature architecture.

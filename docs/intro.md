@@ -2,32 +2,38 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introduction to ReactPilot
 
-Welcome to the **ReactPilot** documentation!
+**ReactPilot** is a modular, AI-powered developer assistant and static analysis engine built specifically for React, Next.js, and TypeScript applications.
 
-ReactPilot is an advanced CLI tool designed to help you maintain, optimize, and fix your React applications with the power of AST analysis and Generative AI.
+Combining single-pass AST AST parsing, LLM-powered intelligent code fixes, interactive architecture dependency graphing, and automated GitHub PR reviews, ReactPilot helps frontend teams maintain clean, high-performance codebases.
 
-## What is ReactPilot?
+---
 
-ReactPilot acts as an intelligent copilot for your React codebase. It doesn't just find bugs; it understands your code structure and can automatically fix complex issues, refactor components, and suggest performance optimizations.
+## Key Features
 
-### Key Features
+- **⚡ Selective Feature System:** Opt-in modular architecture. Only install the features and dependencies you need using `reactpilot features`.
+- **🔍 Single-Pass AST Analyzer:** Detects invalid hook usage, unoptimized re-renders, inline JSX functions, and large component smells in milliseconds.
+- **🤖 Intelligent AI Fix Engine:** Automatically fixes AST violations and refactors code using GPT-4o-mini or your custom OpenAI-compatible endpoint.
+- **📊 Architecture Dependency Graph:** Generates interactive visual graph representations of your React component hierarchy, routes, and circular dependencies.
+- **🚀 Automated React 19 & Next.js 15 Migrations:** Safely migrates deprecated APIs (`useFormStatus`, `useFormState`, Server Actions, params unwrapping) with automatic rollback backups.
+- **💬 Codebase RAG Chat (`reactpilot ask`):** Ask natural language questions about your project structure with `.reactpilotignore` support.
+- **🖥️ Local Developer Center Dashboard:** Serve a visual web dashboard at `http://localhost:3000` with real-time agent status and Pro Waitlist managed AI.
+- **🌐 Cross-Platform Compatibility:** Full support for **macOS, Windows (CMD & PowerShell), and Linux**.
 
-- **Deep Static Analysis**: Goes beyond linting to understand component relationships and hook usage.
-- **AI Auto-Fix**: Uses LLMs (like OpenAI or local Llama models) to intelligently fix issues.
-- **Performance Scoring**: Gamifies your code quality with a 0-100 performance score.
-- **Automated Optimization**: Identifies and fixes expensive re-renders and heavy computations.
+---
 
-## Why ReactPilot?
+## Architecture Overview
 
-Modern React applications can grow complex quickly. ReactPilot helps you:
-
-- **Save Time**: Automate repetitive refactoring tasks.
-- **Improve Quality**: Catch subtle bugs and performance bottlenecks early.
-- **Standardize Code**: Ensure consistent patterns across your team.
-
-## Next Steps
-
-- [Installation](./installation.md)
-- [Getting Started](./getting-started.md)
+```
+                          ┌──────────────────────────┐
+                          │    @reactpilot/cli       │
+                          └─────────────┬────────────┘
+                                        │
+        ┌───────────────────────────────┼───────────────────────────────┐
+        ▼                               ▼                               ▼
+┌──────────────┐               ┌────────────────┐               ┌──────────────┐
+│ AST Analyzer │               │ AI Fix Engine  │               │ RAG Project  │
+│  (Babel AST) │               │ (GPT-4o-mini)  │               │   Chat       │
+└──────────────┘               └────────────────┘               └──────────────┘
+```
